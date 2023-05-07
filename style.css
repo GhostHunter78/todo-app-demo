@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 225px;
+  background-image: url(./mobile/bg-mobile-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-and-moon {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 26px;
+}
+
+input::placeholder {
+  color: #494c6b;
+}
+
+.create-todo {
+  width: 80%;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 12px;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border: 0;
+  outline: 0;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.task-input {
+  width: 80%;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 12px;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+#new-task {
+  display: block;
+  margin: 0 auto;
+  width: 327px;
+}
+
+#new-task-first {
+  display: block;
+  margin: 0 auto;
+  width: 327px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #979797;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.circle:hover {
+  border-color: blue;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.check-icon {
+  margin-left: 4px;
+}
+
+.circle-and-input {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 1px;
+}
+
+.content {
+  margin-top: -25px;
+}
+
+.task-input2 {
+  color: #494c6b;
+  opacity: 1;
+}
+
+.last-window {
+  width: 327px;
+  margin: 0 auto;
+  width: 327px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 12px;
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 1px;
+  color: #9495a5;
+}
+
+.last-window2 {
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.drag-n-drop {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #9495a5;
+  margin-top: 40px;
+  padding-bottom: 72px;
+}
+
+.moon,
+.words,
+.left-items,
+.clear,
+.cross {
+  cursor: pointer;
+}
+
+.words:hover {
+  color: #494c6b;
+  transition: 0.5s;
+}

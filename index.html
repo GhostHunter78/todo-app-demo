@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <script src="index.js" defer></script>
+    <title>To Do App</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="header">
+        <div class="logo-and-moon">
+          <img class="logo" src="./icons and stuff/logo.svg" />
+          <img class="moon" src="./icons and stuff/icon-moon.svg" />
+        </div>
+        <form id="new-task-first">
+          <div class="circle-and-input">
+            <div class="circle">
+              <img class="check-icon" src="./icons and stuff/icon-check.svg" />
+            </div>
+            <input
+              type="text"
+              class="create-todo"
+              placeholder="Create a new todo…"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="content">
+        <form id="new-task">
+          <div class="circle-and-input circle-input-cross">
+            <div class="circle">
+              <img class="check-icon" src="./icons and stuff/icon-check.svg" />
+            </div>
+            <input
+              type="text"
+              class="task-input"
+              placeholder="Complete online JavaScript course"
+            />
+            <img class="cross cross1" src="./icons and stuff/icon-cross.svg" />
+          </div>
+        </form>
+        <form id="new-task">
+          <div class="circle-and-input circle-input-cross">
+            <div class="circle">
+              <img class="check-icon" src="./icons and stuff/icon-check.svg" />
+            </div>
+            <input
+              type="text"
+              class="task-input"
+              placeholder="Jog around the park 3x"
+            />
+            <img class="cross cross2" src="./icons and stuff/icon-cross.svg" />
+          </div>
+        </form>
+        <form id="new-task">
+          <div class="circle-and-input circle-input-cross">
+            <div class="circle">
+              <img class="check-icon" src="./icons and stuff/icon-check.svg" />
+            </div>
+            <input
+              type="text"
+              class="task-input task-input2"
+              placeholder="10 minutes meditation"
+            />
+            <img class="cross cross3" src="./icons and stuff/icon-cross.svg" />
+          </div>
+        </form>
+        <form id="new-task">
+          <div class="circle-and-input circle-input-cross">
+            <div class="circle">
+              <img class="check-icon" src="./icons and stuff/icon-check.svg" />
+            </div>
+            <input
+              type="text"
+              class="task-input task-input2"
+              placeholder="Read for 1 hour"
+            />
+            <img class="cross cross4" src="./icons and stuff/icon-cross.svg" />
+          </div>
+        </form>
+        <form id="new-task">
+          <div class="circle-and-input circle-input-cross">
+            <div class="circle">
+              <img class="check-icon" src="./icons and stuff/icon-check.svg" />
+            </div>
+            <input
+              type="text"
+              class="task-input task-input2"
+              placeholder="Pick up groceries"
+            />
+            <img class="cross cross5" src="./icons and stuff/icon-cross.svg" />
+          </div>
+        </form>
+        <form id="new-task">
+          <div class="circle-and-input circle-input-cross">
+            <div class="circle">
+              <img class="check-icon" src="./icons and stuff/icon-check.svg" />
+            </div>
+            <input
+              type="text"
+              class="task-input task-input2"
+              placeholder="Complete Todo App on Frontend Mentor"
+            />
+            <img class="cross cross6" src="./icons and stuff/icon-cross.svg" />
+          </div>
+        </form>
+        <div class="last-window">
+          <p class="left-items">6 items left</p>
+          <p class="clear">Clear Completed</p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="last-window last-window2">
+          <p class="words">All</p>
+          <p class="words">Active</p>
+          <p class="words">Completed</p>
+        </div>
+        <p class="drag-n-drop">Drag and drop to reorder list</p>
+      </div>
+    </div>
+  </body>
+</html>
